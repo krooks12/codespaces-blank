@@ -15,7 +15,7 @@ button.addEventListener("click", function () {
 
 
 
-    if (answer1 <= "Pranks" && answer2 === "Nine tails") {
+    if (answer1 <= "Pranks" && answer2 === "Fox") {
 
 
         console.log("naruto");
@@ -27,13 +27,13 @@ button.addEventListener("click", function () {
     }
 
 
-    if (answer1 >= "Training" && answer2 === "Lightning") {
+    if (answer1 >= "Train" && answer2 === "Thunder") {
 
 
         console.log("naruto");
         results.innerHTML = "You are sasuke";
     }
-    if (answer1 > "Hunting" && answer2 === "Fire") {
+    if (answer1 > "Hunt" && answer2 === "Fire") {
 
 
         console.log("naruto");
@@ -41,7 +41,7 @@ button.addEventListener("click", function () {
 
 
     }
-    if (answer1 <  "Fighting" && answer2 === "Strength") {
+    if (answer1 <  "Fight" && answer2 === "Strength") {
 
 
         console.log("naruto");
